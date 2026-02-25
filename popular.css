@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*============================(what)==============================*/
+.what {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.offer {
+    background-color: rgba(0, 255, 255, 0.311);
+    width: 120px;
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(53, 53, 193);
+}
+
+.what h1 {
+    font-size: 43px;
+    padding-bottom: 10px;
+}
+
+/*=====================(courses | full)======================*/
+
+ .full:hover .learn a {
+    color: orangered;
+}
+#courses {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.full {
+    width: 430px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo i {
+    background-color: rgb(38, 38, 129);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.logo p {
+    color: aliceblue;
+    background-color: orangered;
+    border-radius: 20px;
+    height: 23px;
+    padding: 2px 5px;
+}
+
+.react,
+.months,
+.learn {
+    display: flex;
+}
+
+.react {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.react p {
+    background-color: rgba(0, 255, 255, 0.311);
+    border-radius: 20px;
+    padding: 2px 5px;
+    height: 23px;
+    color: rgb(53, 53, 193);
+    border: 1px solid rgba(0, 0, 255, 0.366);
+}
+
+.stack {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.months {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+
+.big {
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    padding: 3px 7px;
+    border-radius: 20px;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn {
+    color: rgb(53, 53, 193);
+    text-decoration: none;
+}
+
+.learn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full:hover {
+    position: relative;
+    transform: translateY(-20px);
+    transition: all 1s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.311);
+}
+
+.full:hover .logo i {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/*=========================(courses|frontend)=====================*/
+.logoi i {
+    color: white;
+    background-color: red;
+}
+
+.logoi p {
+    background-color: rgb(88, 71, 175);
+}
+
+.clock i {
+    color: orange;
+}
+
+.people i {
+    color: cornflowerblue;
+}
+
+.star i {
+    color: yellow;
+}
+
+.frontend:hover .logo i {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/* .frontend:hover{
+     position: relative;
+    transform: translateY(-20px);
+    transition: all 1s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.311);
+} */
+
+/*=====================(courses|backend)=======================*/
+.logob p {
+    background-color: rgb(25, 198, 25);
+}
+
+.logob i {
+    background-image: linear-gradient(red, yellow, blue);
+}
+
+#courses2 {
+    display: flex;
+    gap: 25px;
+}
+
+.backend:hover .logo i {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/*==================(frontend2)=========================*/
+.frontend2 .logo p {
+    background-color: red;
+}
+
+.frontend2 .logo i {
+    background-color: red;
+}
+
+.frontend2:hover {
+    position: relative;
+    transition: all 1s;
+}
+
+.frontend2:hover h3 {
+    color: rgb(88, 71, 175);
+}
+
+.frontend2:hover .learn a {
+    color: orangered;
+}
+
+.frontend2:hover .logo i {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/*=========================(backend2)====================*/
+.backend2 .logo i {
+    background-image: linear-gradient(red, yellow, blue);
+}
+
+.backend2:hover h3 {
+    color: rgb(88, 71, 175);
+    transition: all 1s;
+}
+
+.backend2:hover .learn a {
+    color: orangered;
+    transition: all 1s;
+
+}
+
+.backend2:hover {
+    position: relative;
+    /* transform: translateY(-20px); */
+    transition: all 1s;
+    /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.311); */
+}
+
+.backend2:hover .logo i {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/*=============(button)==================*/
+.button {
+    text-align: center;
+}
+
+.button button {
+    background-color: rgb(96, 102, 192);
+    color: beige;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*=====================(say|success)===============*/
+#say {
+    padding-top: 400px;
+}
+
+.real {
+    text-align: center;
+}
+
+.real h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.real .fsl {
+    color: gray;
+}
+
+.success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.success p {
+    background-color: rgba(255, 68, 0, 0.153);
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+/*=======================(say|comments)=====================*/
+#comments {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.comment {
+    border: 1px solid rgba(128, 128, 128, 0.166);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comment p {
+    color: grey;
+}
+
+.starc {
+    color: yellow;
+    padding-top: 15px;
+}
+
+.comma {
+    font-size: 25px;
+    color: rgba(255, 68, 0, 0.566);
+}
+
+.comment:hover {
+    position: relative;
+    transform: translateY(-20px);
+    transition: all 1s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.311);
+}
+
+.image {
+    padding-top: 10px;
+    display: flex;
+    gap: 45px;
+}
+
+.image img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid saddlebrown;
+    padding: 2px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}

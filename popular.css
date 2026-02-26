@@ -4,12 +4,126 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/*==========================  (mail)  =========================*/
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(25, 112, 184);
+    padding: 10px;
+    color: white;
+}
+.mail a{
+  color: white;
+  text-decoration: none;
+}
+
+/*===================  (platform)  ==========================*/
+.platform h1{
+   font-size: 50px;
+}
+.platform p{
+    width: 67%;
+}
+.para{
+    color: grey;
+    font-size: 15px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    color: rgb(233, 243, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .fsl{
+    background-color: rgba(25, 113, 184, 0.16);
+    color: rgb(25, 112, 184);
+    width: 7%;
+    border-radius: 10px;
+} */
+ .fsl {
+    /* background-color: rgba(25, 113, 184, 0.16); */
+    color: rgb(25, 112, 184);
+    width: 7%;
+    border-radius: 10px;
+}
+.slide{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.one{
+    border: 1px solid;
+    width: 60px;
+    height: 4px;
+    background-color: rgb(25, 112, 184);
+    border: none;
+    border-radius: 20px;
+}
+.two{
+    border: 1px solid;
+    width: 25px;
+    height: 4px;
+    background-color: rgb(233, 97, 43);
+    border: none;
+    border-radius: 20px;
+}
+.three{
+    border: 1px solid;
+    width: 10px;
+    height: 4px;
+    background-color: rgba(233, 97, 43, 0.507);
+    border: none;
+    border-radius: 20px;
+}
+
+
+/*======================  (industry)  =========================*/
+.industry {
+    display: flex;
+    gap: 20px;
+    padding: 30px 35px;
+}
+.box{
+    border: 1px solid rgba(128, 128, 128, 0.512);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+.box p{
+    color: grey;
+}
+.logo1{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo1 i{
+   background-image: linear-gradient(135deg, rgb(25, 112, 184), rgb(233, 97, 43));
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+
 /*============================(what)==============================*/
+
+.platform{
+    padding-top: 50px;
+    text-align: center;
+}
 .what {
     text-align: center;
     margin-top: 50px;
 }
-
 .center {
     display: flex;
     justify-content: center;
@@ -112,6 +226,7 @@
 .learn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .learn {
@@ -124,7 +239,10 @@
     align-items: center;
     justify-content: center;
 }
-
+.learn:hover i{
+    transform: translate(10px);
+    transition: all 1s;
+}
 .full:hover {
     position: relative;
     transform: translateY(-20px);
@@ -273,6 +391,7 @@
 
 .real .fsl {
     color: gray;
+    width: 100%;
 }
 
 .success {
